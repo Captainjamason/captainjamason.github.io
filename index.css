@@ -1,5 +1,8 @@
 body {
+    font-family: monospace;
+    padding-top: 60px;
     background-color: black;
+    color: lightgray;
 }
 
 header {
@@ -12,6 +15,17 @@ header {
     padding: 4px;
     margin: 0 -1em;
     border-bottom: solid 4px;
+}
+
+footer {
+    position: static;
+    font-size: 8pt;
+    color: lightgray;
+    border-top: solid 4px;
+    width: 100%;
+    bottom: 0;
+    padding: 1em;
+    margin: 0 -1em;
 }
 
 #title {
@@ -27,6 +41,10 @@ header {
     float: right;
 }
 
-body {
-    margin-top: 50px;
+p {
+    font-size: 12pt;
+}
+
+#heart {
+    color:red;
 }
