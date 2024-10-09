@@ -9,5 +9,7 @@ function loadData() {
 }
 
 function main() {
-    loadData();
+    var data = loadData();
+    console.log(data);
+    console.log(data[0]);
 }
