@@ -3,9 +3,7 @@ function loadData() {
 
     fetch('./list.json')
     .then((response) => response.json())
-    .then((json) => o = json);
-
-    return o;
+    .then((json) => {return json});
 }
 
 function main() {
