@@ -1,0 +1,8 @@
+[
+    {
+        "name": "OctCalc",
+        "desc": "A fuel mixing calculator for american octane, including rotary premix support.",
+        "ver": 0.1,
+        "redir": "https://jpdavis.net/octcalc/index.html"
+    }
+]

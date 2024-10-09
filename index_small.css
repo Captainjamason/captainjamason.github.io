@@ -1,12 +1,13 @@
 body {
     font-family: monospace;
-    padding-top: 4.5%;
+    padding-top: 15%;
     background-color: black;
     color: lightgray;
 }
 
 header {
     font-family: monospace;
+    font-size: 8px;
     background-color: darkslategray;
     position: fixed;
     top: 0;
@@ -34,15 +35,15 @@ footer {
 }
 
 .navBar {
-    margin-top: 1%;
-    margin-right: 0.6%;
-    width: 6%;
-    height: 37px;
-    float: right;
+    margin-top: 4%;
+    margin-right: %;
+    width: 20%;
+    height: 30px;
+    float: bottom;
 }
 
 p {
-    font-size: 10pt;
+    font-size: 12pt;
 }
 
 #heart {
