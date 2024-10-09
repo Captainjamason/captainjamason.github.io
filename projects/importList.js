@@ -1,9 +1,5 @@
 function loadData() {
-    var o;
-
-    fetch('./list.json')
-    .then((response) => response.json())
-    .then((json) => {return json});
+    var o = require('./data.json');
 }
 
 function main() {
