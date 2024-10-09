@@ -1,5 +1,5 @@
 function loadData() {
-    o;
+    var o;
 
     fetch('./list.json')
     .then((response) => response.json())
