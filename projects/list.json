@@ -4,5 +4,11 @@
         "desc": "A fuel mixing calculator for american octane, including rotary premix support.",
         "ver": 0.1,
         "redir": "https://jpdavis.net/octcalc/index.html"
+    },
+    {
+        "name": "OpenCXX-CLI",
+        "desc": "A small, portable library written in C++ allowing for rapid CLI interfaces to be made.",
+        "ver": "0.0.4",
+        "redir": "https://github.com/hurbIndustries/OpenCXX-CLI"
     }
 ]
