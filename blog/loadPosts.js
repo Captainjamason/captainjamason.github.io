@@ -8,9 +8,9 @@ async function loadPosts() {
     var i = 0;
     while(i < posts.length) {
         post.className = "posts";
-        post.innerHTML += `<h3>${posts[i].name}</h3>`;
-        post.innerHTML += `<p>${posts[i].date}</h3>`;
-        post.innerHTML += `<p>${posts[i].content}</p>`;
+        const resp = await fetch(posts[i].content);
+        const data = await resp.text();
+        post.innerHTML += `<md-block>${data}</md-block>`;
         post.innerHTML += `<hr>`
         cont.appendChild(post);
         i++;
